@@ -1,0 +1,18 @@
+
+
+form {
+    
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#register,#login {
+   background: url(../Images/background1.png);
+    
+}
+
+
+
+fieldset legend {
+    font-size: 1.5em;
+}
+
