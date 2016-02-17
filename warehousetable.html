@@ -2,12 +2,13 @@
 <html>
 <head>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
 
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 
      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
     
 </head>
 <body>
@@ -23,11 +24,12 @@
           
        <ul class="nav navbar-nav">
         
-        <li class="active"><a href="warehouse.html">Home</a></li>
-        <li><a href="warehousetable.html">Electronics</a></li>
-        <li><a href="warehousetable.html">Clothing</a></li>
-        <li><a href="warehousetable.html">Books</a></li>
-        <li><a href="warehousetable.html">Healthcare</a></li>   
+        <li class="active"><a href="warehouse.html" >Home</a></li>
+        <li><a id="electronics" href="#" onclick="totalProducts()">Total Products</a></li>
+           <li><a href="#" onclick="categories(1)">Electronics </a></li>
+        <li><a href="#" onclick="categories(2)">Clothing </a></li>
+        <li><a href="#" onclick="categories(3)">Books</a></li>
+        <li><a href="#" onclick="categories(4)">Healthcare</a></li>   
       </ul>
   </div>
           
@@ -38,16 +40,20 @@
 <table class="table" id = 'warehouseList'>
     <thead>
       <tr id = 'warehouse'>
-        <th>SuplierId</th>
-        <th>Lastname</th>
-        <th>Firstname</th>
-        <th>Number</th>  
-        <th>Prefered</th>
-        <th>WarehouseId</th>
         <th>ProductId</th>
+        <th>product Name</th>
+        <th>Warehouse Code</th>
+        <th>Supplier Name</th>  
+        <th>Category Name</th>
+        <th>Description</th>
+        <th>Selling Price</th>
+        <th>Cost Price</th>
+          <th>Quantity</th>
       </tr>
     </thead>
     
   </table>
+    
+    <script src="main.js"></script>
 </body>
 </html>
