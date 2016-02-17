@@ -1,8 +1,13 @@
 {
   "name": "bell_inventory",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "BellInventory",
   "main": "index.js",
+=======
+  "description": "",
+  "main": "app.js",
+>>>>>>> 93e5ac96376e4582790ed7168ed485ddab7b4a93
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,15 +15,22 @@
     "type": "git",
     "url": "git+https://github.com/krishna874/Bell_Inventory.git"
   },
+<<<<<<< HEAD
   "author": "venkatakrishna,ram",
+=======
+  "author": "",
+>>>>>>> 93e5ac96376e4582790ed7168ed485ddab7b4a93
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/krishna874/Bell_Inventory/issues"
   },
   "homepage": "https://github.com/krishna874/Bell_Inventory#readme",
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^1.15.0",
     "cors": "^2.7.1",
+=======
+>>>>>>> 93e5ac96376e4582790ed7168ed485ddab7b4a93
     "express": "^4.13.4",
     "mssql": "^3.0.1"
   }
